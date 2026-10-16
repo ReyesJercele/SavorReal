@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SavorReal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-blue-200">
+
+    <!-- Header Navigation -->
+    <header class="w-full py-6 px-4 md:px-12 flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-200">
+        <a href="index.html" class="flex items-center gap-3 no-underline">
+            <img src="img/LogoSavorReal.png" alt="SavorReal Logo" class="w-20 h-30 object-contain">
+            <span class="text-2xl font-bold tracking-tight text-blue-900">SavorReal</span>
+        </a>
+        <nav class="flex flex-wrap items-center justify-center gap-3 md:gap-6">
+            <a href="index.html" class="nav-btn text-sm md:text-base">Home</a>
+            <a href="recipes.html" class="nav-btn text-sm md:text-base">Recipes</a>
+            <a href="about.html" class="nav-btn text-sm md:text-base">About Us</a>
+            <a href="contact.html" class="nav-btn text-sm md:text-base">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow w-full max-w-6xl mx-auto px-4 py-8">
+
+        <section class="my-12 max-w-3xl mx-auto space-y-8">
+            <div class="flex items-center gap-4">
+                <div class="w-16 h-16 rounded-full border-2 border-blue-400 bg-white flex items-center justify-center shadow-sm">
+                    <svg class="w-10 h-10 text-blue-900" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                    </svg>
+                </div>
+                <h1 class="text-3xl font-extrabold text-black">CONTACT US</h1>
+            </div>
+
+            <p class="text-black leading-relaxed">Questions, feedback, or kitchen ideas? Send us a message! We're always looking for ways to improve your recipe discovery and planning experience.</p>
+
+            <div class="space-y-2 text-black">
+                <p class="font-bold">Reach Us At:</p>
+                <ul class="list-disc list-inside space-y-1">
+                    <li>Email: contact@savoreal.com</li>
+                    <li>Mobile: +63 926 490 9268</li>
+                    <li>Socials: SavorReal</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm mt-8">
+                <h3 class="text-xl font-bold mb-4 text-blue-900">Send us a Message</h3>
+                <form id="contact-form" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-bold mb-1 text-black">Name</label>
+                        <input type="text" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-900">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-1 text-black">Email</label>
+                        <input type="email" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-900">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-1 text-black">Message</label>
+                        <textarea rows="4" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-900"></textarea>
+                    </div>
+                    <button type="submit" class="nav-btn w-full md:w-auto">Submit Message</button>
+                </form>
+                <div id="form-success" class="hidden mt-4 p-4 bg-green-100 text-green-800 rounded-lg font-bold text-center">
+                    Thank you! Your message has been sent successfully.
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full py-6 text-center border-t border-gray-200 text-sm font-semibold tracking-wider text-gray-700">
+        Discover. Cook. Remember.
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

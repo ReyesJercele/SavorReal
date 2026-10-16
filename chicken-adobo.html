@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Adobo - SavorReal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-blue-200">
+
+    <!-- Header Navigation -->
+    <header class="w-full py-6 px-4 md:px-12 flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-200">
+        <a href="index.html" class="flex items-center gap-3 no-underline">
+            <img src="img/LogoSavorReal.png" alt="SavorReal Logo" class="w-20 h-30 object-contain">
+            <span class="text-2xl font-bold tracking-tight text-blue-900">SavorReal</span>
+        </a>
+        <nav class="flex flex-wrap items-center justify-center gap-3 md:gap-6">
+            <a href="index.html" class="nav-btn text-sm md:text-base">Home</a>
+            <a href="recipes.html" class="nav-btn text-sm md:text-base">Recipes</a>
+            <a href="about.html" class="nav-btn text-sm md:text-base">About Us</a>
+            <a href="contact.html" class="nav-btn text-sm md:text-base">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow w-full max-w-6xl mx-auto px-4 py-8">
+
+        <section class="my-8">
+            <a href="recipes.html" class="text-sm font-bold text-black hover:underline mb-8 flex items-center gap-2 no-underline">
+                ← Back to Recipes
+            </a>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start mb-12">
+                <div class="w-full h-72 md:h-96 rounded-2xl overflow-hidden shadow-md">
+                    <img src="img/ChickenAdobo.png" alt="Chicken Adobo" class="w-full h-full object-cover">
+                </div>
+                <div class="flex flex-col justify-center py-4">
+                    <h1 class="text-4xl font-black text-black mb-6 tracking-tight">Chicken Adobo</h1>
+                    <p class="text-lg text-black leading-relaxed">Classic Filipino chicken adobo braised in soy sauce, vinegar, garlic, and bay leaves until savory, tangy, and tender.</p>
+                </div>
+            </div>
+
+            <div class="space-y-8 max-w-2xl">
+                <div>
+                    <span class="badge-btn text-lg mb-4 shadow-sm">Ingredients</span>
+                    <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm mt-3">
+                        <ul class="space-y-3 text-black list-disc list-inside">
+                            <li class="leading-relaxed">1/2 kilo chicken (neck, wings, or mixed cuts) or pork kasim/liempo</li><li class="leading-relaxed">1/4 cup soy sauce (like Silver Swan or Datu Puti)</li><li class="leading-relaxed">3 tablespoons cane vinegar or coconut vinegar</li><li class="leading-relaxed">1 head garlic (crushed and chopped)</li><li class="leading-relaxed">1 teaspoon whole black peppercorns</li><li class="leading-relaxed">2 pieces dried bay leaves (dahon ng laurel)</li><li class="leading-relaxed">1/2 cup water</li><li class="leading-relaxed">1 tablespoon cooking oil</li><li class="leading-relaxed">1 teaspoon sugar (optional, to balance taste)</li><li class="leading-relaxed">1 small onion (optional, to stretch the meal)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <span class="badge-btn text-lg mb-4 shadow-sm">Cooking Instructions</span>
+                    <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm mt-3">
+                        <p class="text-black whitespace-pre-line leading-relaxed">1. Combine chicken, soy sauce, garlic, peppercorns, bay leaves, and water in a pot. Marinate for 15-30 minutes.
+2. Bring to a boil, then simmer over medium-low heat for 20 minutes until chicken is tender.
+3. Pour in vinegar and do not stir. Simmer for another 10 minutes.
+4. Heat oil in a pan, sear the cooked chicken pieces until golden, then pour the sauce back to reduce. Serve with warm rice.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full py-6 text-center border-t border-gray-200 text-sm font-semibold tracking-wider text-gray-700">
+        Discover. Cook. Remember.
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

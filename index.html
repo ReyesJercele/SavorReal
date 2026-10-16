@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - SavorReal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-blue-200">
+
+    <!-- Header Navigation -->
+    <header class="w-full py-6 px-4 md:px-12 flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-200">
+        <a href="index.html" class="flex items-center gap-3 no-underline">
+            <img src="img/LogoSavorReal.png" alt="SavorReal Logo" class="w-20 h-30 object-contain">
+            <span class="text-2xl font-bold tracking-tight text-blue-900">SavorReal</span>
+        </a>
+        <nav class="flex flex-wrap items-center justify-center gap-3 md:gap-6">
+            <a href="index.html" class="nav-btn text-sm md:text-base">Home</a>
+            <a href="recipes.html" class="nav-btn text-sm md:text-base">Recipes</a>
+            <a href="about.html" class="nav-btn text-sm md:text-base">About Us</a>
+            <a href="contact.html" class="nav-btn text-sm md:text-base">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow w-full max-w-6xl mx-auto px-4 py-8">
+
+        <section class="text-center my-12 md:my-16">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-blue-900 tracking-tight leading-snug drop-shadow-sm mb-4">
+                Discover your next favorite meal.<br>
+                Find recipes, and make it yours.
+            </h1>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-8 text-black border-b pb-2">Categories</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <a href="garlic-pasta.html" class="recipe-card bg-white p-4 rounded-xl border border-gray-200 cursor-pointer shadow-sm flex flex-col items-center no-underline">
+                    <div class="w-full h-48 rounded-lg overflow-hidden mb-4">
+                        <img src="img/GarlicPasta.png" alt="Garlic Pasta" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-black tracking-wide">Garlic Pasta</h3>
+                </a>
+                <a href="fries.html" class="recipe-card bg-white p-4 rounded-xl border border-gray-200 cursor-pointer shadow-sm flex flex-col items-center no-underline">
+                    <div class="w-full h-48 rounded-lg overflow-hidden mb-4">
+                        <img src="img/Fries.png" alt="Fries" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-black tracking-wide">Fries</h3>
+                </a>
+                <a href="chicken-adobo.html" class="recipe-card bg-white p-4 rounded-xl border border-gray-200 cursor-pointer shadow-sm flex flex-col items-center no-underline">
+                    <div class="w-full h-48 rounded-lg overflow-hidden mb-4">
+                        <img src="img/ChickenAdobo.png" alt="Chicken Adobo" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-black tracking-wide">Chicken Adobo</h3>
+                </a>
+                <a href="chicken-curry.html" class="recipe-card bg-white p-4 rounded-xl border border-gray-200 cursor-pointer shadow-sm flex flex-col items-center no-underline">
+                    <div class="w-full h-48 rounded-lg overflow-hidden mb-4">
+                        <img src="img/ChickenCurry.png" alt="Chicken Curry" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-black tracking-wide">Chicken Curry</h3>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full py-6 text-center border-t border-gray-200 text-sm font-semibold tracking-wider text-gray-700">
+        Discover. Cook. Remember.
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
