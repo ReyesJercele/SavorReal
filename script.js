@@ -1,4 +1,3 @@
-// SavorReal Helper Script
 document.addEventListener('DOMContentLoaded', () => {
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {

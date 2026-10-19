@@ -1,2 +1,0 @@
-# SavorReal
-Food Recipes
